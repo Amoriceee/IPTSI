@@ -1,0 +1,174 @@
+* {
+  outline: none;
+}
+.form-control {
+  text-align: center;
+}
+.inv-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.inv-card {
+  width: 250px;
+  height: 120px;
+  margin: 20px auto;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.inv-card {
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0px;
+}
+.inv-card:last-child {
+  border: none;
+}
+.inv-card h2 {
+  color: #CED4F4;
+}
+.inv-card h3 {
+  color: #CED4F4;
+}
+section {
+  padding: 2em 1em;
+}
+section#cards {
+  display: none;
+}
+h2 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: lighter;
+}
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.select-box {
+  margin: 0px auto 0px auto;
+  width: 250px;
+}
+.select-client {
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  color: #495057;
+  margin: 20px auto;
+}
+/*INVOICE CREATE */
+.invoice-card {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  color: #495057;
+  width: 320px;
+  height: 100px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.cl-1, .cl-3 {
+  border-right: 1px solid #ced4da;
+}
+.cl h2 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: lighter;
+}
+.cl h3 {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+.cl-4 h3 {
+  margin: 42px auto;
+}
+
+.re {
+  color: red;
+}
+
+.or {
+  color: orange;
+}
+
+.gr {
+  color: green;
+}
+.create-button {
+  border: 1.5px solid #3490dc;
+  border-radius: 2px;
+  width: 240px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 1em 0.5em;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.pagination {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.block-item {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.table {
+ width: 320px;
+ margin: 0 auto;
+}
+
+.row {
+  display: block;
+}
+
+.coll-1 {
+  width: 150px;
+  max-width: 100%;
+  text-align: right;
+  font-weight: bolder;
+  display: inline;
+}
+
+.coll-2 {
+  width: 220px;
+  max-width: 100%;
+  display: inline;
+}
+
+@media screen and (min-width: 786px) {
+
+  .invoice-card, .select-client {
+    width: 420px;
+  }
+  .inv-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .inv-card {
+    border: none;
+  }
+
+  .select-box {
+    width: 420px;
+  }
+
+  .menu-button {
+    width: 240px;
+  }
+
+  .card-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  section#cards {
+    display: block;
+    border-top: 4px double #ced4da;
+    border-bottom: 4px double #ced4da;
+  }
+}

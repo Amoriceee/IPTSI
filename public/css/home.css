@@ -1,0 +1,59 @@
+.form-control {
+  text-align: center;
+}
+.card-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+.card-body {
+  display: block;
+}
+.form-control {
+  width: 90%;
+  margin: 0 auto;
+}
+.menu-button {
+  width: 85%;
+  display: block;
+  padding: 20px 12px;
+  margin: 20px auto;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 12px;
+}
+.pp {
+  height: 48px;
+  display: inline-block;
+}
+h2 {
+  display: inline-block;
+  line-height: 40px;
+  font-size: 1.2rem;
+  position: relative;
+  top: 4px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+div.card a:hover {
+  border:1px solid grey;
+  color: grey;
+  text-decoration: none;
+}
+div.card a:hover img {
+  fill: grey;
+}
+@media screen and (min-width: 786px) {
+
+  .menu-button {
+    width: 240px;
+  }
+
+  .card-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

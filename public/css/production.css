@@ -1,0 +1,97 @@
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+h2 {
+  font-size: 1.2rem;
+  margin: 1em 0.5em;
+  text-align: right;
+}
+.input-lg {
+  width: 200px;
+  margin: 0 auto;
+}
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+#pdList {
+  width: 200px;
+  margin: 0 auto;
+  position: absolute;
+  left: calc((100vw - 200px) /2);
+}
+#pdList ul {
+  width: 200px;
+  margin: 0 auto;
+  top: -1px;
+  border-radius: 2px;
+}
+.production-results {
+  border-top: 1px solid #ced4da;
+  margin: 40px auto;
+}
+.block-item {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  height: 40px;
+}
+.search-box {
+  width: 95%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 786px) {
+  .search-box {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+.add-item {
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  color: #495057;
+}
+.search-item {
+  width: 180px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  color: #495057;
+  margin: 20px auto;
+  display: inline-block;
+}
+.search-submit {
+  float: right;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 20px 10px;
+  border: 1px solid #ced4da;
+  color: #495057;
+  background: transparent;
+  border-radius: 4px;
+}
+.search-date-form {
+  float: right;
+}
+.inline-item {
+  display: inline-block;
+}
+#production_date {
+  width: 200px;
+}
+#pipe_swg {
+  width: 70px;
+  float: left;
+    margin-right: 10px;
+}
+#pipe_qty {
+  width: 120px;
+  float: right;
+}
+section {
+  padding: 2em 1em;
+}

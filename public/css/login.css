@@ -1,0 +1,15 @@
+.form-control {
+  text-align: center;
+}
+.card-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+.form-control {
+  width: 90%;
+  margin: 0 auto;
+}
+.ml15 {
+  margin-left: 15px;
+}
